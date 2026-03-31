@@ -17,8 +17,8 @@ jobs:
 
             - name: say hello to username
               run: echo "hello user"
-   details:
-       runs-on: ubuntu-latest
-       steps: 
-           - name: shows version of python, docker, etc.concurrency
-             run: docker --version && python --version
+details:
+    runs-on: ubuntu-latest
+    steps: 
+        - name: shows version of python, docker, etc.concurrency
+          run: docker --version && python --version
