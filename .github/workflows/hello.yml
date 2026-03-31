@@ -20,5 +20,5 @@ jobs:
     details:
         runs-on: ubuntu-latest
         steps:
-            - name: this job shows versions of python and dcoker on ubuntu machine
-              run: docker --version && python --version
+            - name: this job runs to checck free disk, free memory and all running processes
+              run: df -h && free -h && ps -a
