@@ -20,5 +20,5 @@ jobs:
     details:
         runs-on: ubuntu-latest
         steps:
-            - name: this job runs to checck free disk, free memory and to check machine name
-              run: df -h && free -h && whoam i
+            - name: this job runs to checck free disk and free memory 
+              run: df -h && free -h
