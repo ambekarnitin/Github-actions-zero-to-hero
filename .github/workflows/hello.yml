@@ -16,7 +16,7 @@ jobs:
               run: echo "Hello Dosto"
 
             - name: say hello to username
-              run: echo "hello user"
+              run: echo "hello nitin"
     details:
         runs-on: ubuntu-latest
         steps:
